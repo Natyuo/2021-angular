@@ -7,8 +7,14 @@
 }
 :root {
     --aquamarine: aquamarine;
-    --red: #900
+    --red: #900;
+    --pink: pink;
+    --hotpink: hotpink;
 }
 body {
     background-color: var(--aquamarine);
+}
+
+img{
+    width: 100%;
 }
