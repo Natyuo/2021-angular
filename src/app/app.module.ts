@@ -4,11 +4,19 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavComponent } from './components/nav/nav.component';
+import { EjemploPadreComponent } from './components/ejemplo-padre/ejemplo-padre.component';
+import { EjemploHijoComponent } from './components/ejemplo-hijo/ejemplo-hijo.component';
+import { CardComponent } from './components/card/card.component';
+import { CardwrapperComponent } from './components/card-wrapper/card-wrapper.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavComponent
+    NavComponent,
+    EjemploPadreComponent,
+    EjemploHijoComponent,
+    CardComponent,
+    CardwrapperComponent
   ],
   imports: [
     BrowserModule,

@@ -1,3 +1,20 @@
 <app-nav></app-nav>
-    <span>{{ title }} app is running!</span>
+
+<!--Muestro el listado de cards-->
+<app-card-wrapper></app-card-wrapper>
+
+
+<app-ejemplo-padre></app-ejemplo-padre>
+
+<!--se llama pipe-->
+    <span>{{ title | uppercase }} app is running!</span>
+    <p>{{ edad }}</p>
 <img src="assets/images/plantas.jpg" alt="Plantas">
+<!--<span>{{ edad }} sos un viejo!</span>-->
+
+<ul>
+    <li *ngFor="let numero of numeros">
+       El numero es: {{ numero }}
+
+    </li>
+</ul>
